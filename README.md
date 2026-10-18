@@ -56,6 +56,7 @@ _Automatically refreshed by GitHub Actions. Showing your most recently updated p
 
 | Project | Description | Language | Stars | Last updated |
 |---|---|---:|---:|---|
+| [Music-](https://github.com/GabrielZelito/Music-) | (Apenas codigos para tocar musicas, geralmente simples.) | Python | ⭐ 0 | 2026-10-18 |
 <!-- PROJECTS:END -->
 
 ## 📊 GitHub Analytics
