@@ -1,36 +1,33 @@
+
 name: Update profile projects
 
 on:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
-concurrency:
-  group: update-profile-readme
-  cancel-in-progress: false
-
 jobs:
-  update-projects:
+  update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: uses: actions/checkout@v7
-      - name: Update public project table
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USERNAME: GabrielZelito
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+
+      - name: Update project list
         run: python scripts/update_projects.py
+
       - name: Commit changes
         run: |
-          if ! git diff --quiet -- README.md; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add README.md
-            git commit -m "chore: update profile project table"
-            git push
-          else
-            echo "No README changes."
-          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Update profile projects"
+          git push
