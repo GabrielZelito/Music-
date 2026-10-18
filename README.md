@@ -3,8 +3,8 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:10002B,45:5A189A,100:C77DFF&height=210&section=header&text=GABRIEL%20ZELITO&fontSize=42&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Python%20Developer%20%7C%20Automation%20%7C%20Web&descAlignY=60&descSize=17" width="100%" alt="Gabriel Zelito purple banner"/>
 
 <a href="https://github.com/GabrielZelito"><img src="https://img.shields.io/badge/GitHub-GabrielZelito-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="https://instagram.com/SEU_USUARIO"><img src="https://img.shields.io/badge/Instagram-Follow%20me-C13584?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
-<a href="mailto:SEU_EMAIL"><img src="https://img.shields.io/badge/Email-Contact%20me-7B2CBF?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://instagram.com/GabrielZelito"><img src="https://img.shields.io/badge/Instagram-Follow%20me-C13584?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+<a href="mailto:gabrielzeli9074@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20me-7B2CBF?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
 <br/>
 <img src="https://media1.tenor.com/m/NaGZHARjO60AAAAd/recordofragnarok-adam.gif" width="180" alt="Adam from Record of Ragnarok"/>
